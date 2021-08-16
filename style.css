@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+	font-family: 'Tahoma', 'Arial' 'sans-serif';
+}
+h1 {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: 2vmax
+}
+h2 {
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 2vmax;
+}
+select {
+	outline: none;
+	padding: 5vmax 7vmax;
+}
+select:hover {
+	cursor: pointer;
+}

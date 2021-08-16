@@ -1,0 +1,13 @@
+{
+	"name": "Font Changer",
+	"description": "Change the font of text on pages",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "extension.js"
+	},
+	"permissions": ["storage", "activeTab", "scripting"],
+	"action": {
+		"default_popup": "popup.html"
+	}
+}
