@@ -1,21 +1,36 @@
+:root {
+	--color: rgb(225, 225, 225);
+	font-size: 62.5%;
+}
 body {
 	text-align: center;
 	font-family: 'Tahoma', 'Arial' 'sans-serif';
 }
 h1 {
-	font-size: 1.2rem;
+	font-size: 2.2rem;
 	font-weight: 500;
 	margin: 2vmax
 }
 h2 {
-	font-size: 1rem;
+	font-size: 1.8rem;
 	font-weight: 400;
 	margin: 2vmax;
 }
 select {
-	outline: none;
 	padding: 5vmax 7vmax;
+	outline: none;
+	border: 1.5px solid var(--color);
+	border-radius: 0.2rem;
+	transition-duration: 400ms;
+	transition-property: background-color;
 }
 select:hover {
+	cursor: pointer;
+	background-color: var(--color);
+}
+option {
+	background-color: white;
+}
+option:hover {
 	cursor: pointer;
 }
